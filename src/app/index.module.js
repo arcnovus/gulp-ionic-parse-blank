@@ -2,6 +2,5 @@
   'use strict';
 
   angular
-    .module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'toastr']);
-
+    .module('app', ['ionic', 'ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'toastr']);
 })();

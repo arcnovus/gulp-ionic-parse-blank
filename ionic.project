@@ -1,0 +1,12 @@
+{
+  "name": "gulp-ionic-parse-blank",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

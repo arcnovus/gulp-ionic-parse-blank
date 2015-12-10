@@ -1,6 +1,7 @@
 <!doctype html>
 <html ng-app="app">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>app</title>
     <meta name="description" content="">
@@ -11,6 +12,7 @@
     <!-- bower:css -->
     <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
+    <link href="../bower_components/ionic/release/css/ionic.css" rel="stylesheet">
     <!-- endbuild -->
 
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
@@ -18,13 +20,14 @@
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
-  </head>
-  <body>
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ui-view></div>
+    <ion-nav-view></ion-nav-view>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
@@ -42,5 +45,6 @@
     <!-- endinject -->
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>

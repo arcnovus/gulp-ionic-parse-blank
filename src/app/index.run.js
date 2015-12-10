@@ -1,14 +1,16 @@
-(function() {
-  'use strict';
+/*global Parse:false */
+(function () {
+    'use strict';
 
-  angular
-    .module('app')
-    .run(runBlock);
+    angular
+        .module('app')
+        .run(runBlock);
 
-  /** @ngInject */
-  function runBlock($log) {
-
-    $log.debug('runBlock end');
-  }
+    /** @ngInject */
+    function runBlock($log, apikey, appid) {
+        Parse.initialize(appid, apikey);
+        $log.debug();
+        $log.debug('runBlock end');
+    }
 
 })();

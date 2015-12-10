@@ -20,6 +20,7 @@ gulp.task('styles', function() {
   return buildStyles();
 });
 
+
 var buildStyles = function() {
   var sassOptions = {
     style: 'expanded'
