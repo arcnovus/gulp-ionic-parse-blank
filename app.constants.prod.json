@@ -1,0 +1,7 @@
+{
+    name: "app.constants",
+    constants: {
+        PARSE_APP_ID: "this will be overriden by process.ENV.PARSE_APP_ID",
+        PARSE_API_KEY: "this will be overriden by process.ENV.PARSE_API_KEY"
+    }
+}

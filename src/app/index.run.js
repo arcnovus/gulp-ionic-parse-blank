@@ -7,8 +7,8 @@
         .run(runBlock);
 
     /** @ngInject */
-    function runBlock($log, apikey, appid) {
-        Parse.initialize(appid, apikey);
+    function runBlock($log, PARSE_APP_ID, PARSE_API_KEY) {
+        Parse.initialize(PARSE_APP_ID, PARSE_API_KEY);
         $log.debug();
         $log.debug('runBlock end');
     }

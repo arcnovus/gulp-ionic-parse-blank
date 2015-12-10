@@ -1,0 +1,7 @@
+{
+    name: "app.constants",
+    constants: {
+        PARSE_APP_ID: "TyfDCrcDQPRkUGnAz50DHESIOk4lvfMOEt3Xd02K",
+        PARSE_API_KEY: "t9FX9kEXiyJdRxgiszlonZyPdM8Ip7AbEnoVEZ3F"
+    }
+}
