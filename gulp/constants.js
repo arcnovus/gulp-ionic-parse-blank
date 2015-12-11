@@ -11,8 +11,8 @@ gulp.task('constants', function () {
 
     if (process.env.NODE_ENV === 'prod') {
         configPath = 'app.constants.prod.json';
-        constants.PARSE_APP_ID = process.ENV.PARSE_APP_ID;
-        constants.PARSE_API_KEY = process.ENV.PARSE_API_KEY;
+        constants.PARSE_APP_ID = process.env.PARSE_APP_ID;
+        constants.PARSE_API_KEY = process.env.PARSE_API_KEY;
         return gulp.src(configPath)
             .pipe($.ngConstant({
                 constants: constants
