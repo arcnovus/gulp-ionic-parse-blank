@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "seed"
+    },
+    "seed": {
+      "applicationId": "CZCZXjUywgSAmBFNFkrLX28A90ApayAFxSxmSQmM"
+    }
+  }
+}
